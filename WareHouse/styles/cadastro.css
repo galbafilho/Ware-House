@@ -1,0 +1,107 @@
+#tela{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    background-color: #C9E4F0;
+}
+#corpo{
+    display: flexbox;
+    position: relative;
+    width: 470px;
+    height: 760px;
+    left: 36%;
+    top: 1%;
+    border-radius: 4%; /* Ajuste o valor para controlar o grau de arredondamento */
+    padding: 10px; /* Ajuste o valor para controlar o preenchimento interno */
+    outline: none; /* Remove a borda de foco quando o campo é selecionado */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); /* Opcional: Adiciona uma sombra ao campo */
+
+    background-color: #FFFFFF;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    opacity: 40%;
+}
+
+#form{
+    position: relative;
+    display: flexbox;
+    align-content: center;
+    left: 5%;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#container-input{
+    display: block;
+    position: relative;
+
+    left: 1%;
+    width: 390px;
+}
+.input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+
+    width: 100%; /* Preenche todo o espaço disponível no container */
+    border-radius: 10px; /* Ajuste o valor para controlar o grau de arredondamento */
+    border: none; /* Remove as bordas */
+    padding: 10px; /* Ajuste o valor para controlar o preenchimento interno */
+    outline: none; /* Remove a borda de foco quando o campo é selecionado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); /* Opcional: Adiciona uma sombra ao campo */
+
+}
+
+#container-enviar{
+    display: block;
+    position: relative;
+
+    left: 3%;
+    width: 392px;
+    height: 62px;
+}
+#enviar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+
+    width: 100%; /* Preenche todo o espaço disponível no container */
+    border-radius: 10px; /* Ajuste o valor para controlar o grau de arredondamento */
+    border: none; /* Remove as bordas */
+    padding: 10px; /* Ajuste o valor para controlar o preenchimento interno */
+    outline: none; /* Remove a borda de foco quando o campo é selecionado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); /* Opcional: Adiciona uma sombra ao campo */
+    background-color: #F7FBFD;
+}
+#cadastro{
+    position: absolute;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:smaller;
+    color: #2E79D0;
+
+    top: 97%;
+    left: 26%;
+}
+#confirm{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    
+}
+b{
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

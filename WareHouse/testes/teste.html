@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="teste2.php" method="GET">
+                
+        <label for="nome" id="a">Nome</label><br><br>
+        <div id="container-input">
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome:" class="input" required aria-required="true" pattern="[A-Z][a-z]*">
+        </div><br>
+
+        <label for="email" id="a">E-mail</label><br><br>
+        <div id="container-input">
+            <input type="email" id="email" name="email" placeholder="Digite seu E-mail:" class="input" required aria-required="true">
+        </div><br>
+
+        <label for="dt_nas" id="a">Sua Data de Nascimento</label><br><br>
+        <div id="container-input">
+            <input type="date" id="nome" name="dt_nasc" class="input" minlength="8" required aria-required="true">
+        </div><br>
+
+        <label for="password">Senha:</label><br><br>
+        <div id="container-input">
+            <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" class="input" minlength="8"required aria-required="true">
+        </div><br>
+
+        <label for="conf">Verifique sua Senha:</label><br><br>
+        <div id="container-input">
+            <input type="password" name="conf" id="confirmPassword" class="input" placeholder="Digite sua Senha"required aria-required="true"><br>
+        </div><br>
+        <div id="confirm">
+            <b id="passwordMatch"></b>
+        </div>
+
+        <br><br>
+
+        <div id="container-enviar">
+                <input type="submit" id="enviar" >
+        </div>    
+        <a href="conta.html" id="cadastro">Já Tem uma conta? Login</a>
+    </form>
+</body>
+</html>

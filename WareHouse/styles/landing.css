@@ -1,0 +1,153 @@
+*{
+    border: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+#headcont{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0;
+    top: 0px;
+
+    background-color: #AED6E8;
+}
+
+#logo{
+    position: absolute;
+    left: 17%;
+    top: 1%;
+}
+#frase{
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center;
+
+    color: #477AB6;
+
+    position: absolute;
+    height: 10%;
+    left:40%;
+    right: 25%;
+    top: 15.5px;
+}
+/*barra de pesquisa e botão de conta*/
+#pesq{
+    display: block;
+    position: relative;
+
+    left: 29.9%;
+    top: 42%;
+    width: 40%;
+    
+}
+#conta{
+    position: absolute;
+    width: 20px;
+    right: 27%;
+    top: 41%;
+}
+#img-conta{
+    width: 150px;
+}
+#conta:hover{
+    opacity: 50%;
+}
+
+#barra{
+    width: 100%; /* Preenche todo o espaço disponível no container */
+    border-radius: 20px; /* Ajuste o valor para controlar o grau de arredondamento */
+    border:1cm; /* Remove as bordas */
+    padding: 10px; /* Ajuste o valor para controlar o preenchimento interno */
+    outline: none; /* Remove a borda de foco quando o campo é selecionado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Opcional: Adiciona uma sombra ao campo */
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #fff;
+}
+#barra:hover{
+    opacity: 60%;
+}
+/*menu*/
+#menu{
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 0;
+    z-index: 1;
+
+    background-color: #79BCDA;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #AED6E8;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #6db1d1;
+    border-radius: 30px;
+}
+
+/*menu config*/
+
+nav{
+    position: relative;
+    z-index: 1;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li:hover > .dropdown{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #4c8caa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.dropdown li{
+    display: block;
+}
+.dropdown li a{
+    padding: 10px;
+    opacity: 60%;
+}
+.dropdown li:hover{
+    opacity: 30%;
+
+}
+#body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #AED6E8;
+    left: 0;
+    top: 0;
+}
+#img{
+    width: 100%;
+    height: 100%;
+}

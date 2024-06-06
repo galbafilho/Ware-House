@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style2.css">
+    <script src="JS/script2.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div id="container">
+        <div id="corpo"><br><br>
+            <h1>Login</h1>
+            <h4>Digite os seus dados de acesso no campo abaixo.</h4><br><br>
+            <div id="form">
+            
+                <form action="conexao.php" method="GET" onsubmit="abrirPagina(); return false;" >
+                
+                    <label for="nome" id="a">Nome</label><br><br>
+                    <div id="container-input">
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome:" class="input"required aria-required="true">
+                    </div><br>
+
+                    <label for="email" id="a">E-mail</label><br><br>
+                    <div id="container-input">
+                        <input type="email" id="nome" name="email" placeholder="Digite seu E-mail:" class="input"required aria-required="true">
+                    </div><br>
+
+                    <label for="senha" id="a">Senha</label><br><br>
+                    <div id="container-input">
+                        <input type="password" id="nome" name="senha" placeholder="Digite sua senha:" class="input" minlength="8"required aria-required="true">
+                    </div>
+                    <a href="" id="esqueci">Esqueceu sua senha?</a>
+                    
+                    <br><br><br>
+
+                    <div id="container-enviar">
+                        <input type="submit" id="enviar" >
+                    </div>    
+                    <a href="cadastro.html" id="cadastro">Não tem uma conta? Cadastre-se</a>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

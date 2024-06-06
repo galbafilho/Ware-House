@@ -1,0 +1,100 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+}
+#tela{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    background-color: #C9E4F0;
+}
+#container{
+    display: flexbox;
+    position: relative;
+    width: 700px;
+    height: 600px;
+    left: 25%;
+    top: 0.5%;
+    border-radius: 4%; /* Ajuste o valor para controlar o grau de arredondamento */
+    padding: 10px; /* Ajuste o valor para controlar o preenchimento interno */
+    outline: none; /* Remove a borda de foco quando o campo é selecionado */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); /* Opcional: Adiciona uma sombra ao campo */
+
+    background-color: #E4F2F8;
+}
+
+#img{
+    display: flexbox;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 9%;
+
+    background-color: #ffff;
+}
+#imagem{
+    display: flex;
+    position: relative;
+    top: 18%;
+    left: 25%;
+}
+h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    
+}
+#descricao{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 13%;
+    left: 55%;
+
+}
+#desc{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botoes{
+    display: flex;
+    position: relative;
+    left: 35%;
+}
+#botao1{
+
+    width: 9%; /* Preenche todo o espaço disponível no container */
+    border-radius: 20px; /* Ajuste o valor para controlar o grau de arredondamento */
+    border:1cm; /* Remove as bordas */
+    padding: 10px; /* Ajuste o valor para controlar o preenchimento interno */
+    outline: none; /* Remove a borda de foco quando o campo é selecionado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Opcional: Adiciona uma sombra ao campo */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+
+    background-color: #8BAEDE;
+    color: #ffff;
+}
+#botao2{
+    width: 9%; /* Preenche todo o espaço disponível no container */
+    border-radius: 20px; /* Ajuste o valor para controlar o grau de arredondamento */
+    border:1cm; /* Remove as bordas */
+    padding: 10px; /* Ajuste o valor para controlar o preenchimento interno */
+    outline: none; /* Remove a borda de foco quando o campo é selecionado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Opcional: Adiciona uma sombra ao campo */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+
+    background-color: #B8C6D9;
+    color: #ffff;
+}
